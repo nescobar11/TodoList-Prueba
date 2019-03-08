@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkelist </title>
+	<!-- bootstrap cdn -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overlock" rel="stylesheet">
+    
+
+
+	<link rel="stylesheet" type="text/css" href="../todoList/estilos.css">	
+</head>
+
+<body>
+	<div class="checklist">
+		<div class="container">
+			<h1 class="display-2 text-left">Checkelist</h1>
+            <p class="lead text-left">Bienvenido a la lista de Tareas</p>
+			<div class="row">
+				<form id="form" class="col-lg-8 col-8">
+					<div class="input-group">
+						<input id="input" class="form-control" placeholder="Agregar nueva tarea">
+						<span>
+							<button id="btn" type="button" class="btn btn-primary mx-auto">Agregar</button>
+						</span>
+					</div>			     
+                </form>
+               
+            </div>	
+            
+            
+			<div class="row">				
+				<ul id="list" class="list col-lg-12 col-12 mx-auto">
+				</ul>
+			</div>
+			<div class="row">
+				<button id="btnClr" type="button" class="btn btn-primary mx-auto btnHide">Borrar</button>
+			</div>				
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../todoList/index.js"></script>
+	
+</body>
+</html>
